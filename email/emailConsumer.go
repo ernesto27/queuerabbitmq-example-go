@@ -97,7 +97,7 @@ func main() {
 			// 	log.Println(err)
 			// }
 
-			// sendEmail(os.Getenv("FROM_EMAIL"), os.Getenv("FROM_PASSWORD"), message)
+			sendEmail(os.Getenv("FROM_EMAIL"), os.Getenv("FROM_PASSWORD"), message)
 		}
 
 	}()
