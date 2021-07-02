@@ -6,7 +6,7 @@ Architecture diagram.
 
 ![Alt text](architecture.jpg?raw=true "Title")
 
-There are 3 services on the project
+There are 4 services on the project
 
 ##### BACKEND
 This services simulates some kind on api request from a new post client user.
@@ -22,7 +22,7 @@ This service connect to a rabbitMQ service gets all messages from the backend se
 ##### QUEUESEND
 This service is in charge of send again a message to a queue in case that some problem happened when the backend tries to connect with the queue.
 
-##### DEV INSTALATION
+#### DEV INSTALATION
 Install the rabbitque service in a docker container
 
 ```sh
